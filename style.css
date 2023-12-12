@@ -1,0 +1,438 @@
+/*Brush up on CSS*/
+
+* {
+    margin: 0;
+    font-family: Arial;
+    border: border-box;
+    /*What is border box search later*/
+}
+
+
+/** Navbar **/
+
+.navbar {
+    height: 60px;
+    background-color:#0F1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/** Setting border and border hover **/
+
+.border {
+    border: 1.5px solid transparent;
+}
+
+.border:hover {
+    border: 1.5px solid white;
+}
+
+
+/** box 1 in Navbar **/
+
+.nav-logo {
+    height: 50px;
+    width: 100px;
+    margin-left: 5px;
+}
+
+.logo {
+    background-image: url("Images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+
+/** box 2 in Navbar **/
+
+.nav-address {
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 2px;
+}
+
+.add-first {
+    color: #cccccc;
+    font-size: 0.85rem;
+    margin-left: 17.5px;
+}
+
+.add-second {
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+.add-icon {
+    display: flex;
+}
+
+
+/** box 3 in Navbar **/
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    height: 40px;
+    width: 812.5px;
+    border-radius: 4px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    width: 50px;
+    height: 40px;
+    padding-left: 5px;
+    border: 1px;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    font-size: 0.85rem;
+}
+
+.search-input {
+    background-color: #f3f3f3;
+    width: 100%;
+    height: 23px;
+    padding-top: 7px;
+    padding-bottom: 10px;
+    padding-right: 10px;
+    border: 1px;
+    font-size: 1rem;
+    text-align: left center;
+}
+
+.search-icon {
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #febd68;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0F1111;
+}
+
+.nav-search:hover {
+    border: 2px solid orange;
+}
+
+
+/** box 4 in Navbar **/
+
+.nav-lang {
+    display: flex;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.flag-icon {
+    margin-right: 10px;
+}
+
+.language-select {
+    color: #ffffff;
+    background-color: #0F1111;
+    border: 0;
+}
+
+
+/** box 5 in Navbar **/
+
+.nav-account {
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-bottom: 9px;
+    padding-top: 9px;
+}
+
+.accountsandlists {
+    color: #ffffff;
+    background-color: #0F1111;
+    border: 0;
+}
+
+.sign-in {
+    font-size: 0.85rem;
+}
+
+
+/** box 6 in Navbar **/
+
+.nav-orders {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+}
+
+.Returns {
+    font-size: 0.85rem;
+}
+
+.Orders {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+
+/** box 7 in Navbar **/
+
+.nav-cart {
+    display: flex;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    margin-right: 5px;
+}
+
+.Cart {
+    margin-left: 2px;
+    margin-top: 5px;
+    font-size: 0.85rem;
+}
+
+.cart-icon {
+    font-size: 20px;
+}
+
+
+/** Panel (is a part of Header) **/
+
+/** Panel Bar **/
+
+.panel {
+    height: 39px;
+    background-color: #222F3D;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+/** box 1 in Panel **/
+
+.panel-all {
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+
+/** box 2,3,4,5,6,7 in Panel **/
+
+.panel-options p {
+    display: inline;
+    font-size: 0.85rem;
+    margin-left: 5px;
+
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.panel-options {
+    width: 70%;
+}
+
+
+/** box 8 in Panel **/
+
+.panel-deals {
+    font-size: 1rem;
+    font-weight: 700;
+
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+
+/** Hero Section **/
+
+/** Big Box **/
+
+.hero-section {
+   background-image: url("Images/hero_image.jpg");
+   background-size: cover;
+   height: 350px;
+   display: flex;
+   justify-content: center;
+   align-items: flex-end; 
+}
+
+
+/** Small Box inside Big Box **/
+
+.hero-message {
+    background-color: white;
+    color: black;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.85rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+
+/** Click here to go to amajon.in **/
+
+.hero-message a {
+    color: #007185;
+}
+
+
+/** Shop Section **/
+
+.shop-section {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color:#e2e7e6;
+}
+
+
+/** Setting the style of all the boxes in Shop Section **/
+
+.box {
+    height: 375px;
+    width: 23%;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    background-color: white;
+    margin-top: 15px;
+}
+
+.box-img {
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box p {
+    color: #007185;
+}
+
+.foot-panel1 {
+    width: 100%;
+    height: 50px;
+    background-color: #37475a;
+    color: white;
+    display: flex; /* Use display: flex; to enable alignment properties */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+}
+
+footer {
+    margin-top: 15px;
+}
+
+.foot-panel2 {
+    background-color: #222F3E;
+    color: white;
+
+    height: 300px;
+    width: 100%;
+
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.foot-panel2 p {
+    font-size: 16px;
+}
+
+.foot-panel2 a {
+    font-size: 14px;
+}
+
+.column ul a {
+    display: block;
+    margin-top: 10px;
+    color: #dddddd;
+}
+
+.column ul {
+    margin-top: 10px;
+}
+
+.foot-panel3 {
+    height: 68px;
+    width: 100%;
+
+    background-color: #222F3E;
+
+    display: flex; 
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.logo2 {
+    background-image: url("Images/amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100px;
+}
+
+.foot-panel4 {
+    height: 80px;
+    width: 100%;
+
+    background-color: #121921;
+    color: #dddddd;
+
+    /*
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    */
+}
+
+
+.top-row {
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.bottom-row {
+    font-size: 0.8rem;
+    text-align: center;
+    padding-top: 5px;
+}
+
+/*
+* CHANGES TO MAKE IN THE CODE:
+* U+1F1FA U+1F1F8 (Emoji).
+* Add some kind of dropdown in EN.
+* Add some kind of dropdown in Accounts and Lists.
+* Make the top most panels in the footpanel2 fall in one line.
+* Add the Links.
+* Add all the comments.
+* Upload it on Github
+*/
